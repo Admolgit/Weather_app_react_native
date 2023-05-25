@@ -51,9 +51,8 @@ export default async function getConsultApi() {
           data.forecast.forecastday[0].hour[0].temp_c) /
         7;
 
-        console.log(Location, "LOC")
-
-      const City = data.location.tz_id;
+      // For city it was returning Africa/Lagos, hence the conversion to string, then split to take the index 0f 1.
+      const City = String(data.location.tz_id).split('/')[1];
       const Country = Location.data.country_code;
       const Temperature = res.data.current.temp_c;
       const TemperatureMorning = Math.floor(sunny);
