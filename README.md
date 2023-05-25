@@ -1,8 +1,5 @@
 # weather-react-native
 A simple Weather application in React Native Expo.
-
-<a href="https://www.buymeacoffee.com/cesinha" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="119"></a>
-
 ---
 Important to have installed on your computer
 ```
@@ -30,10 +27,3 @@ I'm going to run it in a web application, so I'm going to run
 expo start --web
 ```
 
----
-**IMPORTANT: If you have any tracking or adverts blocker, please deactivate. Because the project uses your IP to know your latitude and longitude to give you more accurate information.**
-
----
-See screenshots:
-<img wight="50%" src="https://i.imgur.com/6QVdWpl.png"/><br/>
-<img wight="50%" src="https://i.imgur.com/7EBoU4n.png"/>
